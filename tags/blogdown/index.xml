@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogdown on Song Jie</title>
+    <link>/tags/blogdown/</link>
+    <description>Recent content in Blogdown on Song Jie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/blogdown/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>两行代码搭建个人博客</title>
+      <link>/post/creating-a-new-blog/</link>
+      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/creating-a-new-blog/</guid>
+      <description>写在前面：
+最早的时候用过一段时间猪场博客，但是感觉氛围怪怪的，使用人员从一个杂记类的记录群体慢慢过渡到营销为主的群体，就想找到一个更偏向技术一点，可自定义更多一点的博客平台，CSDN简书之类的也试过，最终使用蚂蚁笔记会员赠送的博客平台(主要是因为笔记一键发布比较方便)，后来在未告警的情况下直接屏蔽了我的博客(估计是介绍了SS，而托管服务器又在阿里云)，导致我对博客的要求又多了一点，尽量不能被审核，最终诞生了自己搭博客，在github和VPS上发布的想法。
+2018年11月21日(原创)
+使用 blogdown &amp;reg; 及 Github 快速搭建博客 前置技能：
+ Rstudio及R的简单认知和操作 (用于搭建博客) Markdown的用处 （用于写博客） Github的简单使用 （用于上传博客）
+  我的博客地址：https://lovivi.github.io/ 原地址(更新)：
+基础教程 R真的是一个非常适合代码不友好人群上手的代码语言，依赖少，可视化多，IDE直观，包齐全，还不用考虑缩进对齐！ 同时大佬们一直致力于R语言小白的小白化，所以R的包可以完成许多傻瓜式操作。
+ 首先安装Rstudio，并创建新的工作目录。在左上角的文件里选择新建工程 ,新建一个工作目录，命名为 Blog 就行。 安装使用的工具包 blogdown， 第一句代码    install.packages(&amp;ldquo;blogdown&amp;rdquo;)
+  生成博客，第二句代码   blogdown::new_site()
+ 应该返回类似：
+Total in 72 ms To stop the server, run servr::daemon_stop(&amp;quot;1473308629656&amp;quot;) or restart your R session Serving the directory D:\R_example\test at http://127.0.0.1:4321   查看本地博客,本地浏览器访问http://127.0.0.1:4321 停止博客   blogdown::stop_server()</description>
+    </item>
+    
+  </channel>
+</rss>

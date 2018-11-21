@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NGS on MALAB</title>
+    <link>/tags/ngs/</link>
+    <description>Recent content in NGS on MALAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/ngs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KGBassembler</title>
+      <link>/software/-research_kgbassembler/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/-research_kgbassembler/</guid>
+      <description>The Brassicaceae family includes the most important plant model Arabidopsis thaliana and many cruciferous vegetable crops. Due to the lack of genetic and/or physical maps for many non-model Brassicaceae species, de novo assembly of full chromosomes is difficult in many experiments designed with short sequencing data. To address this problem, we developed a bioinformatics tool named KGBassembler to automatically finalize assembly of full chromosomes from contigs and/or scaffolds based on available karyotypes of Brassicaceae species (Figure 1).</description>
+    </item>
+    
+  </channel>
+</rss>

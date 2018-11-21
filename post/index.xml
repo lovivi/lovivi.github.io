@@ -1,89 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Song Jie</title>
+    <title>News on MALAB@NWAFU</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Song Jie</description>
+    <description>Recent content in News on MALAB@NWAFU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>两行代码搭建个人博客</title>
-      <link>/post/creating-a-new-blog/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/creating-a-new-blog/</guid>
-      <description>写在前面：
-最早的时候用过一段时间猪场博客，但是感觉氛围怪怪的，使用人员从一个杂记类的记录群体慢慢过渡到营销为主的群体，就想找到一个更偏向技术一点，可自定义更多一点的博客平台，CSDN简书之类的也试过，最终使用蚂蚁笔记会员赠送的博客平台(主要是因为笔记一键发布比较方便)，后来在未告警的情况下直接屏蔽了我的博客(估计是介绍了SS，而托管服务器又在阿里云)，导致我对博客的要求又多了一点，尽量不能被审核，最终诞生了自己搭博客，在github和VPS上发布的想法。
-2018年11月21日(原创)
-使用 blogdown &amp;reg; 及 Github 快速搭建博客 前置技能：
- Rstudio及R的简单认知和操作 (用于搭建博客) Markdown的用处 （用于写博客） Github的简单使用 （用于上传博客）
-  我的博客地址：https://lovivi.github.io/ 原地址(更新)：
-基础教程 R真的是一个非常适合代码不友好人群上手的代码语言，依赖少，可视化多，IDE直观，包齐全，还不用考虑缩进对齐！ 同时大佬们一直致力于R语言小白的小白化，所以R的包可以完成许多傻瓜式操作。
- 首先安装Rstudio，并创建新的工作目录。在左上角的文件里选择新建工程 ,新建一个工作目录，命名为 Blog 就行。 安装使用的工具包 blogdown， 第一句代码    install.packages(&amp;ldquo;blogdown&amp;rdquo;)
-  生成博客，第二句代码   blogdown::new_site()
- 应该返回类似：
-Total in 72 ms To stop the server, run servr::daemon_stop(&amp;quot;1473308629656&amp;quot;) or restart your R session Serving the directory D:\R_example\test at http://127.0.0.1:4321   查看本地博客,本地浏览器访问http://127.0.0.1:4321 停止博客   blogdown::stop_server()</description>
-    </item>
-    
-    <item>
-      <title>Creating a New Theme</title>
-      <link>/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>/post/goisforlovers/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Hugo 主题 Nuo 文章样式预览</title>
-      <link>/post/hugo-nuo-post-preview/</link>
-      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hugo-nuo-post-preview/</guid>
-      <description>&lt;p&gt;这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 &lt;code&gt;content.scss&lt;/code&gt; 和 &lt;code&gt;shortcodes.scss&lt;/code&gt; 这两个文件。预告一下，我所用的这个名为 &lt;code&gt;Nuo&lt;/code&gt; 的 &lt;code&gt;Hugo&lt;/code&gt; 也将于近期发布，敬请期待。&lt;/p&gt;</description>
-    </item>
     
   </channel>
 </rss>

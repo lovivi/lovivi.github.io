@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- saved from url=(0049)http://219.245.196.198:8080/software/Ara-m5C.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>PEAgene for Arabidopsis thaliana</title>
+    <link rel="shortcut icon" href="http://219.245.196.198:8080/favicon.ico">
+    <link href="http://219.245.196.198:8080/feed/" rel="alternate" title="venyao" type="application/atom+xml">
+    <link rel="stylesheet" href="./PEAgene for Arabidopsis thaliana_files/style.css">
+    <link rel="stylesheet" href="./PEAgene for Arabidopsis thaliana_files/highlight.css">
+<style type="text/css" abt="234"></style><script>//remove 17173 video ad
+doAdblock();
+function doAdblock(){
+    (function() {
+        function A() {}
+        A.prototype = {
+            rules: {
+                '17173_in':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFile(Customer)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_in_20150522.swf"
+                },
+                '17173_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/PreloaderFileFirstpage\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_out_20150522.swf"
+                },
+                '17173_live':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream(_firstpage)?\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173_stream_20150522.swf"
+                },
+                '17173_live_out':{
+                    'find':/http:\/\/f\.v\.17173cdn\.com\/(\d+\/)?flash\/Player_stream_(custom)?Out\.swf/,
+                    'replace':"http://swf.adtchrome.com/17173.out.Live.swf"
+                }
+            },
+            _done: null,
+            get done() {
+                if(!this._done) {
+                    this._done = new Array();
+                }
+                return this._done;
+            },
+            addAnimations: function() {
+                var style = document.createElement('style');
+                style.type = 'text/css';
+                style.innerHTML = 'object,embed{\
+                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;\
+                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;\
+                -o-animation-duration:.001s;-o-animation-name:playerInserted;\
+                animation-duration:.001s;animation-name:playerInserted;}\
+                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}\
+                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}';
+                document.getElementsByTagName('head')[0].appendChild(style);
+            },
+            animationsHandler: function(e) {
+                if(e.animationName === 'playerInserted') {
+                    this.replace(e.target);
+                }
+            },
+            replace: function(elem) {
+                if(this.done.indexOf(elem) != -1) return;
+                this.done.push(elem);
+                var player = elem.data || elem.src;
+                if(!player) return;
+                var i, find, replace = false;
+                for(i in this.rules) {
+                    find = this.rules[i]['find'];
+                    if(find.test(player)) {
+                        replace = this.rules[i]['replace'];
+                        if('function' === typeof this.rules[i]['preHandle']) {
+                            this.rules[i]['preHandle'].bind(this, elem, find, replace, player)();
+                        }else{
+                            this.reallyReplace.bind(this, elem, find, replace)();
+                        }
+                        break;
+                    }
+                }
+            },
+            reallyReplace: function(elem, find, replace) {
+                elem.data && (elem.data = elem.data.replace(find, replace)) || elem.src && ((elem.src = elem.src.replace(find, replace)) && (elem.style.display = 'block'));
+                var b = elem.querySelector("param[name='movie']");
+                this.reloadPlugin(elem);
+            },
+            reloadPlugin: function(elem) {
+                var nextSibling = elem.nextSibling;
+                var parentNode = elem.parentNode;
+                parentNode.removeChild(elem);
+                var newElem = elem.cloneNode(true);
+                this.done.push(newElem);
+                if(nextSibling) {
+                    parentNode.insertBefore(newElem, nextSibling);
+                } else {
+                    parentNode.appendChild(newElem);
+                }
+            },
+            init: function() {
+                var handler = this.animationsHandler.bind(this);
+                document.body.addEventListener('webkitAnimationStart', handler, false);
+                document.body.addEventListener('msAnimationStart', handler, false);
+                document.body.addEventListener('oAnimationStart', handler, false);
+                document.body.addEventListener('animationstart', handler, false);
+                this.addAnimations();
+            }
+        };
+        new A().init();
+    })();
+}
+//remove baidu search ad
+if(document.URL.indexOf('www.baidu.com') >= 0){
+    if(document && document.getElementsByTagName && document.getElementById && document.body){
+        var aa = function(){
+            var all = document.body.querySelectorAll("#content_left div,#content_left table");
+            for(var i = 0; i < all.length; i++){
+                if(/display:\s?(table|block)\s!important/.test(all[i].getAttribute("style"))){all[i].style.display= "none";all[i].style.visibility='hidden';}
+            }
+            all = document.body.querySelectorAll('.result.c-container[id="1"]');
+            //if(all.length == 1) return;
+            for(var i = 0; i < all.length; i++){
+                if(all[i].innerHTML && all[i].innerHTML.indexOf('广告')>-1){
+                    all[i].style.display= "none";all[i].style.visibility='hidden';
+                }
+            }
+        }
+        aa();
+        document.getElementById('wrapper_wrapper').addEventListener('DOMSubtreeModified',aa)
+    };
+}
+//remove sohu video ad
+if (document.URL.indexOf("tv.sohu.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//remove 56.com video ad
+if (document.URL.indexOf("56.com") >= 0){
+    if (document.cookie.indexOf("fee_status=true")==-1){document.cookie='fee_status=true'};
+}
+//fore iqiyi enable html5 player function
+if (document.URL.indexOf("iqiyi.com") >= 0){
+    if (document.cookie.indexOf("player_forcedType=h5_VOD")==-1){
+        document.cookie='player_forcedType=h5_VOD'
+        if(localStorage.reloadTime && Date.now() - parseInt(localStorage.reloadTime)<60000){
+            console.log('no reload')
+        }else{
+            location.reload()
+            localStorage.reloadTime = Date.now();
+        }
+    }
+}
+</script><style type="text/css">object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}</style></head>
+<body style="position: static;">
+    <div id="container">
+      <div id="main" role="main">
+        <header>
+        <h1>Ara-m5C: a database for transcriptome-wide m5C annotation</h1>
+        </header>
+        <nav>
+        <span><a title="Home" href="http://219.245.196.198:8080/software/Ara-m5C.html">Home</a></span>
+        <span><a title="Gene" href="http://219.245.196.198:8080/software/Search.html">Search</a></span>
+        </nav>
+        <article class="content">
+        <section class="post">
+        
+          <meta name="referrer" content="origin">
+        
+        <p><strong>About Ara-m5C</strong></p>
+        <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The emergence of epitranscriptome opened a new chapter in gene regulation, 5-methylcytosine (m5C), as an important post-transcriptional modification, has been identified to be involved in a variety of biological processes such as subcellular localization and translational fidelity. We performed transcriptome-wide m5C annotation through PEA-m5C, which is a transcriptome-wide m5C predictor trained with features extracted from flanking sequence centered on m5C using random forest algorithm under machine learning framework. 
+        </div>
+
+
+
+        <p></p>
+        <p><strong>The candidate m5C modificatio sites in different type of RNAs</strong></p>
+        <hr style="margin:-8px 0;border-top:1px solid #d0d0d0;border-bottom:1px solid #f9f9f9;">
+        <div style="margin:20px 0;">
+            <table style="border:1px solid black;" cellspacing="0" cellpadding="0">
+                <tbody><tr>
+                <th></th>
+                <th>Transcript</th>
+                <th>m5C sites</th>
+                <th>Download</th>
+                </tr>
+                <tr>
+                <td>Long non-coding RNA</td>
+                <td>2455</td>
+                <td>4591</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_lnc_RNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>miRNA</td>
+                <td>387</td>
+                <td>41</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_miRNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td style="white-space:nowrap">miRNA promary transcript</td>
+                <td>325</td>
+                <td>330</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_miRNA_primary_transcript_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>mRNA</td>
+                <td>48353</td>
+                <td>728136</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_mRNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>rRNA</td>
+                <td>15</td>
+                <td>450</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_rRNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>snoRNA</td>
+                <td>287</td>
+                <td>198</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_snoRNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>snRNA</td>
+                <td>82</td>
+                <td>168</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_snRNA_table.csv">[Download↓]</a></td>
+                </tr>
+                <tr>
+                <td>tRNA</td>
+                <td>689</td>
+                <td>884</td>
+                <td><a href="http://219.245.196.198:8080/software/source/m5C_tRNA_table.csv">[Download↓]</a></td>
+                </tr>
+            </tbody></table>
+
+
+
+        </div>
+       </section>
+       </article>
+    </div>
+    <footer>
+    <p>If you use the data in this database, please cite  …...</p>
+    <p>If you find any error information in our database or any sugguestion, please leave us a message. 
+    <a href="http://mail.126.com/" target="_blank">q2516581@126.com</a></p>
+    </footer>
+</div>
+
+<audio controls="controls" style="display: none;"></audio></body><style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style></html>

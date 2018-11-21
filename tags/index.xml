@@ -1,104 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Song Jie</title>
+    <title>Tags on MALAB@NWAFU</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Song Jie</description>
+    <description>Recent content in Tags on MALAB@NWAFU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 21 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Blogdown</title>
-      <link>/tags/blogdown/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      <title>all</title>
+      <link>/tags/all/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/tags/blogdown/</guid>
+      <guid>/tags/all/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Development</title>
-      <link>/tags/development/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <title>database</title>
+      <link>/tags/database/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/tags/development/</guid>
+      <guid>/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Go</title>
-      <link>/tags/go/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <title>machine-learning</title>
+      <link>/tags/machine-learning/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/tags/go/</guid>
+      <guid>/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Golang</title>
-      <link>/tags/golang/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <title>server</title>
+      <link>/tags/server/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/tags/golang/</guid>
+      <guid>/tags/server/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>software</title>
+      <link>/tags/software/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
       
-      <guid>/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Markdown</title>
-      <link>/tags/markdown/</link>
-      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Network</title>
-      <link>/tags/network/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>/tags/templates/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/templates/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Theme</title>
-      <link>/tags/theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Themes</title>
-      <link>/tags/themes/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/themes/</guid>
+      <guid>/tags/software/</guid>
       <description></description>
     </item>
     

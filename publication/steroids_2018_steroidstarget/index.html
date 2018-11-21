@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.49" />
+  <meta name="author" content="MaLab@NWAFU">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Steroids exist universally and play critical roles in various biological processes. Identifying potential targets of steroids is of great significance in studying their physiological and biochemical activities, the side effects and for drug repurposing. Herein, aiming at more precise steroids targets prediction, a steroids-specific target library integrating 3325 PDB or homology modeling structures categorized into 196 proteins was built by considering chemical similarity from DrugBank and biological processes from KEGG. The main properties of this library include: (1) It was manually prepared and checked to eliminate mistakes. (2) The library enriched the possible steroids targets and could decrease the false positives of structure-based target screening for steroids. (3) The ranking by protein name instead of PDB ID could make the screening more efficiency and precise. (4) Protein flexibility was taken into account partially by the different active conformations through the structural redundancy of each category of protein, which leads to more accurate prediction. The case studies of glycocholic acid and 24-epibrassinolide proved its powerful predictive accuracy. In summary, our strategy to build the steroids-specific protein library for steroids target prediction is a promising approach and it provides a novel idea for the target prediction of small molecules.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/publication/steroids_2018_steroidstarget/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#0095eb">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="MALAB@NWAFU">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="MALAB@NWAFU">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/publication/steroids_2018_steroidstarget/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="MALAB@NWAFU">
+  <meta property="og:url" content="/publication/steroids_2018_steroidstarget/">
+  <meta property="og:title" content="Steroids-specific Target Library for Steroids Target Prediction | MALAB@NWAFU">
+  <meta property="og:description" content="Steroids exist universally and play critical roles in various biological processes. Identifying potential targets of steroids is of great significance in studying their physiological and biochemical activities, the side effects and for drug repurposing. Herein, aiming at more precise steroids targets prediction, a steroids-specific target library integrating 3325 PDB or homology modeling structures categorized into 196 proteins was built by considering chemical similarity from DrugBank and biological processes from KEGG. The main properties of this library include: (1) It was manually prepared and checked to eliminate mistakes. (2) The library enriched the possible steroids targets and could decrease the false positives of structure-based target screening for steroids. (3) The ranking by protein name instead of PDB ID could make the screening more efficiency and precise. (4) Protein flexibility was taken into account partially by the different active conformations through the structural redundancy of each category of protein, which leads to more accurate prediction. The case studies of glycocholic acid and 24-epibrassinolide proved its powerful predictive accuracy. In summary, our strategy to build the steroids-specific protein library for steroids target prediction is a promising approach and it provides a novel idea for the target prediction of small molecules.">
+  
+  
+    
+  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2018-10-08T00:00:00&#43;08:00">
+  
+  <meta property="article:modified_time" content="2018-10-08T00:00:00&#43;08:00">
+  
+
+  
+
+  
+
+  <title>Steroids-specific Target Library for Steroids Target Prediction | MALAB@NWAFU</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">MALAB@NWAFU</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/post">
+            
+            <span>News</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/people">
+            
+            <span>People</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/opportunities">
+            
+            <span>Opportunities</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
+
+  
+
+
+
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Steroids-specific Target Library for Steroids Target Prediction</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      <strong>Xiaoxue Dang</strong>, Zheng Liu, Yanzhuo Zhou, Peizi Chen, Jiyuan Liu, Xiaojun Yao, <strong>Beilei Lei</strong>*
+      
+    </span>
+    <span class="float-right">
+      
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Steroids-specific%20Target%20Library%20for%20Steroids%20Target%20Prediction&amp;url=%2fpublication%2fsteroids_2018_steroidstarget%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpublication%2fsteroids_2018_steroidstarget%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpublication%2fsteroids_2018_steroidstarget%2f&amp;title=Steroids-specific%20Target%20Library%20for%20Steroids%20Target%20Prediction"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpublication%2fsteroids_2018_steroidstarget%2f&amp;title=Steroids-specific%20Target%20Library%20for%20Steroids%20Target%20Prediction"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Steroids-specific%20Target%20Library%20for%20Steroids%20Target%20Prediction&amp;body=%2fpublication%2fsteroids_2018_steroidstarget%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    </span>
+
+    
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Steroids exist universally and play critical roles in various biological processes. Identifying potential targets of steroids is of great significance in studying their physiological and biochemical activities, the side effects and for drug repurposing. Herein, aiming at more precise steroids targets prediction, a steroids-specific target library integrating 3325 PDB or homology modeling structures categorized into 196 proteins was built by considering chemical similarity from DrugBank and biological processes from KEGG. The main properties of this library include: (1) It was manually prepared and checked to eliminate mistakes. (2) The library enriched the possible steroids targets and could decrease the false positives of structure-based target screening for steroids. (3) The ranking by protein name instead of PDB ID could make the screening more efficiency and precise. (4) Protein flexibility was taken into account partially by the different active conformations through the structural redundancy of each category of protein, which leads to more accurate prediction. The case studies of glycocholic acid and 24-epibrassinolide proved its powerful predictive accuracy. In summary, our strategy to build the steroids-specific protein library for steroids target prediction is a promising approach and it provides a novel idea for the target prediction of small molecules.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Steroids</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Date</div>
+          <div class="col-12 col-md-9" itemprop="datePublished">
+            October, 2018
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="row" style="padding-top: 10px">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
+          <div class="col-12 col-md-9">
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.ncbi.nlm.nih.gov/pubmed/30296544" target="_blank" rel="noopener">
+  PubMed
+</a>
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.sciencedirect.com/science/article/pii/S0039128X18301892?via%3Dihub" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-sm-none space-below"></div>
+
+    <div class="space-below"></div>
+
+    <div class="article-style"><ul>
+<li><strong>甾体特异性靶标库的构建及筛选研究</strong></li>
+</ul>
+
+<hr />
+
+<blockquote>
+<p>甾体类分子是生物界出现最广泛的成分之一，在各种生物过程中发挥着关键作用。确定甾体类分子的潜在靶点对研究其生理生化活性、毒副作用及生理作用具有重要意义。传统的靶标发现依赖实验，但前期的虚拟筛选能够排除大量的不可能的靶标，降低实验盲目性。现有的综合性的靶标虚拟筛选平台如idTarget和TarFishDock 包含大量晶体，给出的筛选结果为PDB晶体的列表，存在着假阳性的和蛋白结构冗余的问题。为此本课题设计了更精确的甾体类分子靶标预测方法，利用配体的化学结构相似性和KEGG的生化反应中酶和底物相互作用的原理分别从Drugbank和KEGG搜集构建了一个包含3325 晶体结构，196类蛋白的甾体特异性靶标库。该库的所有蛋白都经过人工检查以消除错误。并在前期搜集过程中考虑了甾体分子的特异性，降低了基于结构的靶标筛选的假阳性。最后的筛选结果用蛋白种类代替PDB ID进行排序，能有效提高筛选的效率和准确性。此外通过每一类蛋白的结构冗余，将不同的活性构象分数整合，能考虑到蛋白质的柔韧性，使预测更加准确。通过对甘氨胆酸和24-epibrassinolide的实例研究，发现其能有效预测出甘氨胆酸所有已知晶体结构的靶标，且与idTarget相比预测精度更高，证明了其强大的预测准确性。构建的甾体特异性蛋白库可用于对所有甾体类分子进行靶标筛选和预测，为后续的实验验证提供指导。甾体特异性靶标库的构建及后续验证比较与筛选研究流程如图3所示，相关成果已在Steroids（Dang et al.,2018）发表。</p>
+</blockquote>
+
+<!--
+ + 相关软件: <br>
+   * [PEA](http://bioinfo.nwafu.edu.cn/software/pea/)
+   * [PEA-m5C](http://bioinfo.nwafu.edu.cn/software/peam5c/)
+-->
+
+<p><img src="/img/image005.jpg" alt="asd" /></p>
+
+<p>图.特异性靶标库的构建及后续验证比较与筛选研究</p>
+</div>
+
+    
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; 2018 &middot; 
+
+    Copyright.The Ma Lab.<br> Developed by Chuang Ma, Jie Song.Site built with Blogdown & Academic theme.
+    
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        CommonHTML: { linebreaks: { automatic: true } },
+        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
+        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
+        messageStyle: 'none'
+      });
+    </script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

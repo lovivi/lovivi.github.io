@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>server on MALAB@NWAFU</title>
+    <link>/tags/server/</link>
+    <description>Recent content in server on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/server/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>miRLocator</title>
+      <link>/software/mirlocator/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/mirlocator/</guid>
+      <description>miRLocator applies machine learning algorithms to accurately predict the localization of most likely miRNAs within their pre-miRNAs. One major strength of miRLocator is the fact that the machine learning-based miRNA prediction model can be automatically trained using a set of miRNAs of particular interest, with informative features extracted from miRNA-miRNA* duplexes and the optimized ratio between positive and negative samples.
+ Web Server View Details Please cite the following article:</description>
+    </item>
+    
+  </channel>
+</rss>

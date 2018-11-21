@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MALAB@NWAFU</title>
+    <link>/software/test/</link>
+    <description>Recent content in Projects on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/software/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mlDNA</title>
+      <link>/software/test/research_mldna/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/test/research_mldna/</guid>
+      <description>Machine learning (ML) is an intelligent data mining technique to recognize patterns in large-scale data sets, the capability of which in Big Data analysis was exemplified in the Go match between Google’s artificial intelligence program AlphaGo and the world-class Go players like Lee Sedol. We presented an ML-based methodology termed mlDNA for large-scale integration analysis of transcriptome data via comparison of gene coexpression networks (Figure 3). mlDNA substantially outperformed traditional statistical testing–based differential expression analysis in identifying stress-related genes, with markedly improved prediction accuracy.</description>
+    </item>
+    
+  </channel>
+</rss>

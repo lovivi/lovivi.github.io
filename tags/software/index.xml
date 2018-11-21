@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on MALAB@NWAFU</title>
+    <link>/tags/software/</link>
+    <description>Recent content in software on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>DeepGS</title>
+      <link>/software/deepgs/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/deepgs/</guid>
+      <description>Genomic selection (GS) is a promising breeding strategy by which the phenotypes of plant individuals are usually predicted based on genome-wide markers of genotypes. Conventional GS models typically make strong assumptions, resulting in difficulty capturing complex relationships within genotypes and between genotypes and phenotypes. To address this problem, we presented a deep learning (DL)-based model, named DeepGS, to automatically learn complex relationships without pre-defined rules. The experimental results indicate that DeepGS can be used as a complement to the commonly used RR-BLUP for more accurately selecting individuals with high phenotypic values.</description>
+    </item>
+    
+    <item>
+      <title>KGBassembler</title>
+      <link>/software/kgbassembler/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/kgbassembler/</guid>
+      <description>The Brassicaceae family includes the most important plant model Arabidopsis thaliana and many cruciferous vegetable crops. Due to the lack of genetic and/or physical maps for many non-model Brassicaceae species, de novo assembly of full chromosomes is difficult in many experiments designed with short sequencing data. To address this problem, we developed a bioinformatics tool named KGBassembler to automatically finalize assembly of full chromosomes from contigs and/or scaffolds based on available karyotypes of Brassicaceae species (Figure 1).</description>
+    </item>
+    
+    <item>
+      <title>PEA</title>
+      <link>/software/pea/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/pea/</guid>
+      <description>PEA is a docker-based integrated R toolkit that aims to facilitate the plant epitranscriptome analysis. This toolkit contains a comprehensive collection of functions required for read mapping, CMR calling, motif scanning and discovery, and gene functional enrichment analysis. PEA also takes advantage of machine learning technologies for transcriptome-scale CMR prediction, with high prediction accuracy, using the Positive Samples Only Learning algorithm, which addresses the two-class classification problem by using only positive samples (CMRs), in the absence of negative samples (non-CMRs).</description>
+    </item>
+    
+    <item>
+      <title>PEA-m5C</title>
+      <link>/software/peam5c/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/peam5c/</guid>
+      <description>We developed PEA-m5C, an accurate transcriptome-wide m5C modification predictor under machine learning framework with random forest algorithm. PEA-m5C was trained with features from the flanking sequences of m5C modifications. In addition, we also deposited all the candidate m5C modification sites in the Ara-m5C database for follow-up functional mechanism researches. Finally, in order to maximize the usage of PEA-m5C, we implement it into a cross-platform, user-friendly and interactive interface and an R package named PEA-m5C based R statistical language and JAVA programming language, which may advance functional researches of m5C.</description>
+    </item>
+    
+    <item>
+      <title>RAP</title>
+      <link>/software/rap/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/rap/</guid>
+      <description>RAP is a rank aggregation-based data fusion approach for gene prioritization in plants. It can be used to perform the gene prioritization in Arabidopsis thaliana and 28 non-plant species. The input of RAP are a set of genes of interest and the network-based gene prioritization results from AraNet v2 system, while the output are the ranks of candidate genes. RAP has been successfully applied to prioritize flowering-time genes in Arabidopsis. The genome-wide experimental results indicate that RAP can be used as a complement to the network-based gene prioritization algorithm (e.</description>
+    </item>
+    
+    <item>
+      <title>RSGCC</title>
+      <link>/software/rsgcc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/rsgcc/</guid>
+      <description>We introduced the Gini correlation coefficient, a member of the family of Gini methodologies that have been widely used in economics, to infer non-linear transcriptional regulatory relationships in transcriptomics data (Figure 2). The Gini-based R package rsgcc would be an alternative option for biologists to perform clustering analyses of gene expression patterns or transcriptional network analysis.
+Figure. Gini correlation is a powerful algorithm to infer non-linear transcriptional regulatory relationships
+ View Details Please cite the following article:</description>
+    </item>
+    
+    <item>
+      <title>mlDNA</title>
+      <link>/software/mldna/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/mldna/</guid>
+      <description>Machine learning (ML) is an intelligent data mining technique to recognize patterns in large-scale data sets, the capability of which in Big Data analysis was exemplified in the Go match between Google’s artificial intelligence program AlphaGo and the world-class Go players like Lee Sedol. We presented an ML-based methodology termed mlDNA for large-scale integration analysis of transcriptome data via comparison of gene coexpression networks (Figure 3). mlDNA substantially outperformed traditional statistical testing–based differential expression analysis in identifying stress-related genes, with markedly improved prediction accuracy.</description>
+    </item>
+    
+  </channel>
+</rss>

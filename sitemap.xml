@@ -1,133 +1,484 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>/links/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/people/test/</loc>
+      <lastmod>2018-11-02T14:56:19+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/planta_2018_deepgs/</loc>
+      <lastmod>2018-11-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/creating-a-new-blog/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/bioinformatics_2018_pea/</loc>
+      <lastmod>2018-11-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/resume/</loc>
-    <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/opportunities/</loc>
+      <lastmod>2018-10-15T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/steroids_2018_steroidstarget/</loc>
+      <lastmod>2018-10-08T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/goisforlovers/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/links/software/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/links/websites/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/people/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/hugo-nuo-post-preview/</loc>
-    <lastmod>2013-07-17T00:00:00+00:00</lastmod>
-  </url>
+    
+    <url>
+    
+      <loc>/links/onlinecourses/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/blogdown/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/links/tutorials/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/categories/</loc>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/links/journals/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/development/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/links/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/go/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/people/current/</loc>
+      <lastmod>2018-09-09T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/golang/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/the_plant_cell_2018_opaque2/</loc>
+      <lastmod>2018-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/front_plant-sci_2018_peam5c/</loc>
+      <lastmod>2018-07-08T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/markdown/</loc>
-    <lastmod>2013-07-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/genetics_2018_methylome/</loc>
+      <lastmod>2018-05-08T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/network/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/planta_2018_gt47/</loc>
+      <lastmod>2018-03-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/front_plant-sci_2018_hsf/</loc>
+      <lastmod>2018-02-08T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/scientific_reports_2017_droughtstress/</loc>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/icic_-2017_gs/</loc>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/templates/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/publication/scientific_reports_2017_shsps/</loc>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
   
-  <url>
-    <loc>/tags/themes/</loc>
-    <lastmod>2014-07-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
+    
+    <url>
+    
+      <loc>/software/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/front_plant-sci_2016_rap/</loc>
+      <lastmod>2016-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/icic_-2016_gs/</loc>
+      <lastmod>2016-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/plos_one_2016_maizeendosperm/</loc>
+      <lastmod>2016-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/bigdata/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/g2p/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/deepgs/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/epitranscriptome/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/kgbassembler/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/pea/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/peam5c/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/rap/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/rsgcc/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/mirlocator/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/software/mldna/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/int_j_data_min_bioinform_2015_stress_responsive/</loc>
+      <lastmod>2015-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/plos_one_2015_mirlocator/</loc>
+      <lastmod>2015-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/the_plant_cell_2015_endospermdifferentiation/</loc>
+      <lastmod>2015-03-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/trends_in_plant_science_2014_machinelearning/</loc>
+      <lastmod>2014-12-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/the_plant_cell_2014_mldna/</loc>
+      <lastmod>2014-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/the_plant_cell_2013_-imprintedgenes/</loc>
+      <lastmod>2013-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/plant_physiology_2012_rsgcc/</loc>
+      <lastmod>2012-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/bioinformatics_2012_kgbassembler/</loc>
+      <lastmod>2012-09-01T00:00:00+08:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2018-11-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/5/</loc>
+      <lastmod>2017-09-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2017-10-15T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2018-11-01T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/slides/example-slides/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/all/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/database/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/machine-learning/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/server/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/software/</loc>
+      <lastmod>2016-04-27T00:00:00+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
 </urlset>

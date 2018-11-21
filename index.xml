@@ -1,117 +1,595 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Song Jie</title>
+    <title>MALAB@NWAFU on MALAB@NWAFU</title>
     <link>/</link>
-    <description>Recent content on Song Jie</description>
+    <description>Recent content in MALAB@NWAFU on MALAB@NWAFU</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
-    <lastBuildDate>Wed, 09 Apr 2014 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Links</title>
-      <link>/links/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Test</title>
+      <link>/people/test/</link>
+      <pubDate>Fri, 02 Nov 2018 14:56:19 +0800</pubDate>
       
-      <guid>/links/</guid>
-      <description>Ritchie and his friends.</description>
+      <guid>/people/test/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      <title>A Deep Convolutional Neural Network Approach for Predicting Phenotypes from Genotypes</title>
+      <link>/publication/planta_2018_deepgs/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
- Cobra Viper J Walter Weatherman Cast  Learn more and contribute on GitHub.</description>
+      <guid>/publication/planta_2018_deepgs/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基于深度学习技术的全基因组选择的生物信息学新方法研究&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;全基因组选择(genomic selection,GS)育种是分子辅助育种新策略，实现了育种的定量化、信息化、精确化。但是，传统的GS模型往往伴随一定的假设，在捕捉基因型间以及基因型和表型间的复杂关系上有难度。深度学习是最近发展起来的新技术，拥有自主学习大数据内部复杂信息的能力，但是，其在GS上的应用并不成熟。本年度，研究了深度学习技术应用于GS的可行性。主要通过深度卷积神经网络(DeepGS)，在底层提取特征，在顶层汇总并映射到表型。研究发现，DeepGS可以作为现在应用广泛、稳健的岭回归最优线性无偏估计(RR-BLUP)的补充，为此构建基于鸟群算法的整合模型，提升预测优良性状个体的能力。研究表明，即使去除离群值，或者减少基因型标记数目，这种互补性仍旧存在。DeepGS模型已经打包成Docker Image，以方便其应用。上述研究成果发表在Planta（Ma et al., 2018）上。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/deepgs-zh.jpg&#34; alt=&#34;asd&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;strong&gt;图. DeepGS和RR-BLUP具有一定的互补性&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>两行代码搭建个人博客</title>
-      <link>/post/creating-a-new-blog/</link>
-      <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
+      <title>PEA: an Integrated R Toolkit for Plant Epitranscriptome Analysis</title>
+      <link>/publication/bioinformatics_2018_pea/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/creating-a-new-blog/</guid>
-      <description>写在前面：
-最早的时候用过一段时间猪场博客，但是感觉氛围怪怪的，使用人员从一个杂记类的记录群体慢慢过渡到营销为主的群体，就想找到一个更偏向技术一点，可自定义更多一点的博客平台，CSDN简书之类的也试过，最终使用蚂蚁笔记会员赠送的博客平台(主要是因为笔记一键发布比较方便)，后来在未告警的情况下直接屏蔽了我的博客(估计是介绍了SS，而托管服务器又在阿里云)，导致我对博客的要求又多了一点，尽量不能被审核，最终诞生了自己搭博客，在github和VPS上发布的想法。
-2018年11月21日(原创)
-使用 blogdown &amp;reg; 及 Github 快速搭建博客 前置技能：
- Rstudio及R的简单认知和操作 (用于搭建博客) Markdown的用处 （用于写博客） Github的简单使用 （用于上传博客）
-  我的博客地址：https://lovivi.github.io/ 原地址(更新)：
-基础教程 R真的是一个非常适合代码不友好人群上手的代码语言，依赖少，可视化多，IDE直观，包齐全，还不用考虑缩进对齐！ 同时大佬们一直致力于R语言小白的小白化，所以R的包可以完成许多傻瓜式操作。
- 首先安装Rstudio，并创建新的工作目录。在左上角的文件里选择新建工程 ,新建一个工作目录，命名为 Blog 就行。 安装使用的工具包 blogdown， 第一句代码    install.packages(&amp;ldquo;blogdown&amp;rdquo;)
-  生成博客，第二句代码   blogdown::new_site()
- 应该返回类似：
-Total in 72 ms To stop the server, run servr::daemon_stop(&amp;quot;1473308629656&amp;quot;) or restart your R session Serving the directory D:\R_example\test at http://127.0.0.1:4321   查看本地博客,本地浏览器访问http://127.0.0.1:4321 停止博客   blogdown::stop_server()</description>
+      <guid>/publication/bioinformatics_2018_pea/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;构建了植物表观转录组数据整合分析系统&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;表观转录组(也称 RNA 的化学修饰; CMR)作为基因表达调控的新层面，可参与到多个生物学过程，其中包括响应胁迫、RNA 折叠以及 mRNA 翻译等。表观转录组从转录组层面研究不同化学修饰的生物学功能，是近年来备受关注的研究内容。表观转录组分析近年来得到长足发展，2016 年被《Nature Methods》期刊评为年度生命科学技术，但是依然存在数据噪音大、假阴性率高、分析软件缺乏等诸多问题。为此，本研究利用机器学习技术随机森林算法创新性地研发出植物表观转录组整合分析系统PEA，用于全面解析植物表观转录组。PEA解决了测序数据的噪音去除问题，实现了 CMR 的智能检测、全转录组水平 CMR 预测以及功能解析等功能。同时基于表观转录组学测序数据的大规模分析结果，PEA进一步利用机器学习等大数据智能分析技术，自动构建了一套高精度的CMR预测模型，进而可精确检测出全转录组范围内的候选CMR，为后续的实验验证工作提供指导。PEA的具体实施路线以及功能如图1 所示。相关成果已在Bioinformatics (Zhai et al., 2018)和Frontiers in Plant Science (Song et al., 2018)发表。&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+&lt;li&gt;相关软件: &lt;br&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bioinfo.nwafu.edu.cn/software/pea/&#34; target=&#34;_blank&#34;&gt;PEA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://bioinfo.nwafu.edu.cn/software/peam5c/&#34; target=&#34;_blank&#34;&gt;PEA-m5C&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/image001.jpg&#34; alt=&#34;asd&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;strong&gt;图1. PEA分析系统技术路线&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Resume</title>
-      <link>/resume/</link>
-      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      <title>Steroids-specific Target Library for Steroids Target Prediction</title>
+      <link>/publication/steroids_2018_steroidstarget/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0800</pubDate>
       
-      <guid>/resume/</guid>
-      <description>This is my resume.</description>
+      <guid>/publication/steroids_2018_steroidstarget/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;甾体特异性靶标库的构建及筛选研究&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;甾体类分子是生物界出现最广泛的成分之一，在各种生物过程中发挥着关键作用。确定甾体类分子的潜在靶点对研究其生理生化活性、毒副作用及生理作用具有重要意义。传统的靶标发现依赖实验，但前期的虚拟筛选能够排除大量的不可能的靶标，降低实验盲目性。现有的综合性的靶标虚拟筛选平台如idTarget和TarFishDock 包含大量晶体，给出的筛选结果为PDB晶体的列表，存在着假阳性的和蛋白结构冗余的问题。为此本课题设计了更精确的甾体类分子靶标预测方法，利用配体的化学结构相似性和KEGG的生化反应中酶和底物相互作用的原理分别从Drugbank和KEGG搜集构建了一个包含3325 晶体结构，196类蛋白的甾体特异性靶标库。该库的所有蛋白都经过人工检查以消除错误。并在前期搜集过程中考虑了甾体分子的特异性，降低了基于结构的靶标筛选的假阳性。最后的筛选结果用蛋白种类代替PDB ID进行排序，能有效提高筛选的效率和准确性。此外通过每一类蛋白的结构冗余，将不同的活性构象分数整合，能考虑到蛋白质的柔韧性，使预测更加准确。通过对甘氨胆酸和24-epibrassinolide的实例研究，发现其能有效预测出甘氨胆酸所有已知晶体结构的靶标，且与idTarget相比预测精度更高，证明了其强大的预测准确性。构建的甾体特异性蛋白库可用于对所有甾体类分子进行靶标筛选和预测，为后续的实验验证提供指导。甾体特异性靶标库的构建及后续验证比较与筛选研究流程如图3所示，相关成果已在Steroids（Dang et al.,2018）发表。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!--
+ + 相关软件: &lt;br&gt;
+   * [PEA](http://bioinfo.nwafu.edu.cn/software/pea/)
+   * [PEA-m5C](http://bioinfo.nwafu.edu.cn/software/peam5c/)
+--&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/image005.jpg&#34; alt=&#34;asd&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;图.特异性靶标库的构建及后续验证比较与筛选研究&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>/post/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>/links/software/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>/links/software/</guid>
+      <description>
+
+&lt;p&gt;Recommended skills in the lab:&lt;/p&gt;
+
+&lt;h2 id=&#34;software-language-environment&#34;&gt;&lt;strong&gt;Software &amp;amp; Language &amp;amp; Environment&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.r-project.org/&#34; target=&#34;_blank&#34;&gt;R&lt;/a&gt;: R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and MacOS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/&#34; target=&#34;_blank&#34;&gt;RStudio&lt;/a&gt;: RStudio is an active member of the R community.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.python.org/&#34; target=&#34;_blank&#34;&gt;Python&lt;/a&gt;: Python is a programming language that lets you work quickly and integrate systems more effectively.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/cuda-zone&#34; target=&#34;_blank&#34;&gt;CUDA&lt;/a&gt;: CUDA® is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs). With CUDA, developers are able to dramatically speed up computing applications by harnessing the power of GPUs.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://shiny.rstudio.com/&#34; target=&#34;_blank&#34;&gt;Shiny&lt;/a&gt;: Shiny is an R package that makes it easy to build interactive web apps straight from R. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.java.com&#34; target=&#34;_blank&#34;&gt;Java&lt;/a&gt;: Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented,[15] and specifically designed to have as few implementation dependencies as possible. &lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.perl.org/&#34; target=&#34;_blank&#34;&gt;Perl&lt;/a&gt;: Perl is a family of high-level, general-purpose, interpreted, dynamic programming languages. The languages in this family include Perl 5 and Perl 6.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cn.mathworks.com/products/matlab.html&#34; target=&#34;_blank&#34;&gt;Matlab&lt;/a&gt;: MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, C#, Java, Fortran, and Python.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>(Hu)go Template Primer</title>
-      <link>/post/goisforlovers/</link>
-      <pubDate>Mon, 28 Jul 2014 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>/links/websites/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
+      <guid>/links/websites/</guid>
+      <description>
+
+&lt;h2 id=&#34;websites&#34;&gt;&lt;strong&gt;Websites&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://galaxyproject.org/&#34; target=&#34;_blank&#34;&gt;Galaxy&lt;/a&gt;: Galaxy is an open source, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses. &lt;a href=&#34;https://galaxyproject.org/&#34; target=&#34;_blank&#34;&gt;Galaxy project&lt;/a&gt;,  &lt;a href=&#34;https://wiki.galaxyproject.org/FrontPage&#34; target=&#34;_blank&#34;&gt;Galaxy wiki&lt;/a&gt;, &lt;a href=&#34;https://galaxy.cbio.mskcc.org/&#34; target=&#34;_blank&#34;&gt;Galaxy/Rätsch Lab&lt;/a&gt;, &lt;a href=&#34;http://pipeclip.qbrc.org/&#34; target=&#34;_blank&#34;&gt;Galaxy/qbrc&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.genomespace.org/&#34; target=&#34;_blank&#34;&gt;GenomeSpace&lt;/a&gt;: GenomeSpace is a cloud-based interoperability framework to support integrative genomics analysis through an easy-to-use Web interface. GenomeSpace provides access to a diverse range of bioinformatics tools, and bridges the gaps between the tools, making it easy to leverage the available analyses and visualizations in each of them. The tools retain their native look and feel, with GenomeSpace providing frictionless conduits between them through a lightweight interoperability layer. More info can be found from the related paper: &lt;a href=&#34;http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3732.html&#34; target=&#34;_blank&#34;&gt;Integrative genomic analysis by interoperation of bioinformatics tools in GenomeSpace&lt;/a&gt; &lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://en.wikibooks.org/wiki/Next_Generation_Sequencing_(NGS)&#34; target=&#34;_blank&#34;&gt;NGS WikiBook&lt;/a&gt;:  a dynamic collaborative online training effort with long-term sustainability for next-generation sequencing (NGS) analysis. Nine rules to begin with NGS analysis: &lt;strong&gt;1) Do not fear the command line; 2) Known the conventions; 3)Read introductory reviews; 4) Start with quality checking; 5) Plan for mistakes and document workflow; 6) Always get informed and get help if stuck; 7) Use an efficient integrative approach; 8) Avoid reinventing the wheel; 9) Education is important. &lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://seqanswers.com/wiki/Software/list&#34; target=&#34;_blank&#34;&gt;NGS Software list&lt;/a&gt;: a regularly updated list of NGS software collected by &lt;a href=&#34;http://seqanswers.com/wiki&#34; target=&#34;_blank&#34;&gt;http://seqanswers.com/wiki&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://biowardrobe.com/&#34; target=&#34;_blank&#34;&gt;Wardrobe&lt;/a&gt;:  BioWardrobe Experiment Management System, which allows users to store, visualize and analyze epigenomic and transcriptomic next-generation sequencing data using a biologist-friendly, web-based graphical user interface without the need for programming expertize. &lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
-      <title>Getting Started with Hugo</title>
-      <link>/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Coming soon ...</title>
+      <link>/links/onlinecourses/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+      <guid>/links/onlinecourses/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>/post/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      <title>Coming soon ...</title>
+      <link>/links/tutorials/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>/links/tutorials/</guid>
+      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Hugo 主题 Nuo 文章样式预览</title>
-      <link>/post/hugo-nuo-post-preview/</link>
-      <pubDate>Wed, 17 Jul 2013 00:00:00 +0000</pubDate>
+      <title>Journals Links</title>
+      <link>/links/journals/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
       
-      <guid>/post/hugo-nuo-post-preview/</guid>
-      <description>&lt;p&gt;这篇文章集中说明本人博客主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些部分的样式，可以去修改 &lt;code&gt;content.scss&lt;/code&gt; 和 &lt;code&gt;shortcodes.scss&lt;/code&gt; 这两个文件。预告一下，我所用的这个名为 &lt;code&gt;Nuo&lt;/code&gt; 的 &lt;code&gt;Hugo&lt;/code&gt; 也将于近期发布，敬请期待。&lt;/p&gt;</description>
+      <guid>/links/journals/</guid>
+      <description>
+
+&lt;h2 id=&#34;bioinformatics-and-related-journals&#34;&gt;&lt;strong&gt;Bioinformatics and related journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nmeth/&#34; target=&#34;_blank&#34;&gt;Nature Methods&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nprot/&#34; target=&#34;_blank&#34;&gt;Nature Protocols&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://genome.cshlp.org&#34; target=&#34;_blank&#34;&gt;Genome Research&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://genomebiology.biomedcentral.com&#34; target=&#34;_blank&#34;&gt;Genome Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/cell-systems/home&#34; target=&#34;_blank&#34;&gt;Cell Systems&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://msb.embopress.org/&#34; target=&#34;_blank&#34;&gt;Molecular Systems Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/bioinformatics&#34; target=&#34;_blank&#34;&gt;Bioinformatics&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/bib&#34; target=&#34;_blank&#34;&gt;Briefings in Bioinformatics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://journals.plos.org/ploscompbiol/volume&#34; target=&#34;_blank&#34;&gt;PLoS Computational Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/gigascience&#34; target=&#34;_blank&#34;&gt;GigaScience&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://home.liebertpub.com/publications/journal-of-computational-biology/31/overview&#34; target=&#34;_blank&#34;&gt;Journal of Computational Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.journals.elsevier.com/genomics-proteomics-and-bioinformatics&#34; target=&#34;_blank&#34;&gt;Genomics, Proteomics &amp;amp; Bioinformatics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/natmachintell/&#34; target=&#34;_blank&#34;&gt;Nature Machine Intelligence&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.jstatsoft.org/index&#34; target=&#34;_blank&#34;&gt;Journal of Statistical Software&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.jmlr.org/papers/&#34; target=&#34;_blank&#34;&gt;Journal of Machine Learning Research&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.journals.elsevier.com/neural-networks&#34; target=&#34;_blank&#34;&gt;Neural Network&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.journals.elsevier.com/biosystems&#34; target=&#34;_blank&#34;&gt;Biosystems&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/gbe&#34; target=&#34;_blank&#34;&gt;Genome Biology and Evolution&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/icb&#34; target=&#34;_blank&#34;&gt;Integrative and Comparative Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://rnajournal.cshlp.org/&#34; target=&#34;_blank&#34;&gt;RNA&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;plant-sciences-and-related-journals&#34;&gt;&lt;strong&gt;Plant Sciences and related journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.journals.elsevier.com/current-opinion-in-systems-biology&#34; target=&#34;_blank&#34;&gt;Current Opinion in Systems Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.annualreviews.org&#34; target=&#34;_blank&#34;&gt;Annual Review of Plant Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/trends/plant-science/home&#34; target=&#34;_blank&#34;&gt;Trends in Plant Science&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.journals.elsevier.com/current-opinion-in-plant-biology&#34; target=&#34;_blank&#34;&gt;Current Opinion in Plant Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.tandfonline.com/loi/bpts20&#34; target=&#34;_blank&#34;&gt;Critical Reviews in Plant Sciences&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nplants/&#34; target=&#34;_blank&#34;&gt;Nature Plants&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/molecular-plant/home&#34; target=&#34;_blank&#34;&gt;Molecular Plant&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.plantcell.org/&#34; target=&#34;_blank&#34;&gt;Plant Cell&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.plantphysiol.org/&#34; target=&#34;_blank&#34;&gt;Plant Physiology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://onlinelibrary.wiley.com/journal/1365313x&#34; target=&#34;_blank&#34;&gt;Plant Journal&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://nph.onlinelibrary.wiley.com/journal/14698137&#34; target=&#34;_blank&#34;&gt;New Phytologist&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/jxb&#34; target=&#34;_blank&#34;&gt;Journal of Experimental Botany&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://onlinelibrary.wiley.com/journal/13653040&#34; target=&#34;_blank&#34;&gt;Plant Cell and Environment&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;review-journals&#34;&gt;&lt;strong&gt;Review Journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nrg/&#34; target=&#34;_blank&#34;&gt;Nature Reviews Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nrm/&#34; target=&#34;_blank&#34;&gt;Nature Reviews Molecular Cell Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.annualreviews.org/action/captchaChallenge?redirectUri=%2Fjournal%2Fgenom&#34; target=&#34;_blank&#34;&gt;Annual Review of Genomics and Human Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.annualreviews.org/action/captchaChallenge?redirectUri=%2Fjournal%2Fstatistics&#34; target=&#34;_blank&#34;&gt;Annual Review of Statistics and Its Application&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/trends/biochemical-sciences/home&#34; target=&#34;_blank&#34;&gt;Trends in Biochemical Sciences&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/trends/biotechnology/home&#34; target=&#34;_blank&#34;&gt;Trends in Biotechnology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/trends/cell-biology/home&#34; target=&#34;_blank&#34;&gt;Trends in Cell Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/trends/genetics/home&#34; target=&#34;_blank&#34;&gt;Trends in Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;nature-and-its-sister-journals&#34;&gt;&lt;strong&gt;Nature and its sister journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com&#34; target=&#34;_blank&#34;&gt;Nature&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/ncb/&#34; target=&#34;_blank&#34;&gt;Nature Cell Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nbt/&#34; target=&#34;_blank&#34;&gt;Nature Biotechnology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nchem/&#34; target=&#34;_blank&#34;&gt;Nature Chemistry&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/nchembio/&#34; target=&#34;_blank&#34;&gt;Nature Chemical Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/ng/&#34; target=&#34;_blank&#34;&gt;Nature Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/ncomms/&#34; target=&#34;_blank&#34;&gt;Nature Communications&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/cr/&#34; target=&#34;_blank&#34;&gt;Cell Research&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.nature.com/jhg/&#34; target=&#34;_blank&#34;&gt;Journal of Human Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;cell-and-its-sister-journals&#34;&gt;&lt;strong&gt;Cell and its sister journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com&#34; target=&#34;_blank&#34;&gt;Cell&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/cell-stem-cell/home&#34; target=&#34;_blank&#34;&gt;Cell Stem Cell&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/cell-metabolism/home&#34; target=&#34;_blank&#34;&gt;Cell Metabolism&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/developmental-cell/home&#34; target=&#34;_blank&#34;&gt;Developmental Cell&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/current-biology/home&#34; target=&#34;_blank&#34;&gt;Current Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.cell.com/molecular-cell/home&#34; target=&#34;_blank&#34;&gt;Molecular Cell&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;science-and-related-journals&#34;&gt;&lt;strong&gt;Science and related journals&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.sciencemag.org/&#34; target=&#34;_blank&#34;&gt;Science&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.scichina.com/&#34; target=&#34;_blank&#34;&gt;Science China&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.pnas.org/&#34; target=&#34;_blank&#34;&gt;PNAS&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://emboj.embopress.org/&#34; target=&#34;_blank&#34;&gt;Embo Journal&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://advances.sciencemag.org/&#34; target=&#34;_blank&#34;&gt;Science Advances&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://academic.oup.com/nar&#34; target=&#34;_blank&#34;&gt;Nucleic Acids Research&lt;/a&gt; (NAR)&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://genesdev.cshlp.org/&#34; target=&#34;_blank&#34;&gt;Genes &amp;amp; Development&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://journals.plos.org/plosbiology/&#34; target=&#34;_blank&#34;&gt;PLoS Biology&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://jcb.rupress.org/&#34; target=&#34;_blank&#34;&gt;Journal of Cell Biology&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://stke.sciencemag.org/&#34; target=&#34;_blank&#34;&gt;Science signaling&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;https://link.springer.com/journal/122&#34; target=&#34;_blank&#34;&gt;Theoretical and Applied Genetics (TAG)&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.genetics.org/&#34; target=&#34;_blank&#34;&gt;Genetics&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://www.scichina.com/&#34; target=&#34;_blank&#34;&gt;中国科学&lt;/a&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;a href=&#34;http://engine.scichina.com/publisher/scp/journal/CSB/25/1?slug=Browse&#34; target=&#34;_blank&#34;&gt;科学通报&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Current student</title>
+      <link>/people/current/</link>
+      <pubDate>Sun, 09 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/people/current/</guid>
+      <description>
+
+&lt;h2 id=&#34;phd-candidates&#34;&gt;&lt;strong&gt;PhD Candidates&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34;  src=&#34;/img/student/WengK.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Kai Weng&lt;br&gt;翁凯&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/shafy2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Shafy&lt;br&gt;莎菲&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/MaWL.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Wenlong Ma&lt;br&gt;马文龙&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120px&#34; height=&#34;150px&#34;src=&#34;/img/student/qiuzx.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Zhixu Qiu&lt;br&gt;邱志旭&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/chensiyuan2.png&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Siyuan Chen&lt;br&gt;陈思远&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/zhangT2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Ting Zhang&lt;br&gt;张庭&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/qiyuhong.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Yuhong Qi&lt;br&gt;齐玉红&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img  width=&#34;120px&#34; height=&#34;150px&#34; src=&#34;/img/student/chengqian2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Qian Cheng&lt;br&gt;程前&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;master-candidates&#34;&gt;&lt;strong&gt;Master Candidates&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/songjie2.png&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Jie Song&lt;br&gt;宋捷&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34;src=&#34;/img/student/liuchunni4.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Chunni Liu&lt;br&gt;刘春妮&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34;src=&#34;/img/student/dangxiaoxue3.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Xiaoxue Dang&lt;br&gt;党晓雪&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/renchengzhi2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Chengzhi Ren&lt;br&gt;任承志&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/zhaijingjing3.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Jingjing Zhai&lt;br&gt;翟晶晶&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/xiangcheng.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Xiangcheng Sun&lt;br&gt;孙向成&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34;src=&#34;/img/student/baopengkun2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Pengkun Bao&lt;br&gt;暴鹏坤&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/lizelong2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Zelong Li&lt;br&gt;李泽隆&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/zhangxiaorong3.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Xiaorong Zhang&lt;br&gt;张晓蓉&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/linglei2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Lei Ling&lt;br&gt;凌雷&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/lidazhuang2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Dazhuang Li&lt;br&gt;李大壮&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;div align=&#34;center&#34;&gt;&lt;img width=&#34;120&#34; height=&#34;150&#34; src=&#34;/img/student/yuanruxia2.jpg&#34;/&gt;&lt;/div&gt; &lt;strong&gt;Ruxia Yuan&lt;br&gt;袁如霞&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;graduated-student&#34;&gt;&lt;strong&gt;Graduated student&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Jiajia Li    李佳佳&lt;/strong&gt;&lt;br&gt;
+Master graduated on 2018&lt;br&gt;
+Received a job offer from Biomarker Technologies Co，LTD. (Beijing, China)&lt;br&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Junfeng Tan    谭俊峰&lt;/strong&gt;&lt;br&gt;
+Master graduated on 2018&lt;br&gt;
+Pursue doctorate degree in Northeastern University. (Shenyang, China)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;former-members&#34;&gt;&lt;strong&gt;Former members&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Longteng Wang 王龙腾 (2014 – 2017): Went to Peking University&lt;/li&gt;
+&lt;li&gt;Hao Yuan 袁皓 (2014 – 2017): Went to Sun Yat-sen University&lt;/li&gt;
+&lt;li&gt;Haoli Shang 尚昊立&lt;/li&gt;
+&lt;li&gt;Yao Li 李耀 (2015 – 2017): Went to Tsinghua University&lt;/li&gt;
+&lt;li&gt;Nuo Cheng 程诺 (2016 – 2017): Went to Shanghai Jiaotong University&lt;/li&gt;
+&lt;li&gt;Yue Wu 吴越 (2016 – 2017): Went to Tsinghua University（Shen Zhen）&lt;/li&gt;
+&lt;li&gt;Manqing Wen 温曼晴 (2016 – 2018): Went to Zhejiang University&lt;/li&gt;
+&lt;li&gt;Shuyu  Meng 蒙淑玉 (2016 – 2018): Went to Northwest Agriculture &amp;amp; Forestry University&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Opaque-2 Regulates a Complex Gene Network Associated with Cell Differentiation and Storage Functions of Maize Endosperm</title>
+      <link>/publication/the_plant_cell_2018_opaque2/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/the_plant_cell_2018_opaque2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcriptome-Wide Annotation of m5C RNA Modifications Using Machine Learning</title>
+      <link>/publication/front_plant-sci_2018_peam5c/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/front_plant-sci_2018_peam5c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritable Epigenomic Changes to the Maize Methylome Resulting from Tissue Culture</title>
+      <link>/publication/genetics_2018_methylome/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/genetics_2018_methylome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution of Intron-poor Clades and Expression Patterns of the Glycosyltransferase Family 47</title>
+      <link>/publication/planta_2018_gt47/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/planta_2018_gt47/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;揭示了糖基转移酶家族47的起源进化和表达模式&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;糖基转移酶家族47(GT47)的基因编码合成果胶，木葡聚糖和木聚糖的β-半乳糖基转移酶和β-葡糖醛酸基转移酶，在细胞壁的生物合成中发挥着重要的作用。我们的研究发现，GT47家族可能起源于蓝藻，并且在进化到苔藓植物的过程中发生扩展，其中2个起源于苔藓植物的Clades主要由intron-poor的基因组成。基因复制分析显示GT47家族在玉米中的扩展是由串联复制事件和大片段复制事件驱动的，且这些复制基因几乎全部都是intron-poor的基因。表达分析表明，几个intron-poor的GT47基因可能参与玉米干旱胁迫反应和种子发育。（Tan et al，planta，2017）&lt;br&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/picture2.jpg&#34; alt=&#34;asd&#34; /&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;strong&gt;图.GT47家族的进化规律和表达模式&lt;/strong&gt;&lt;/p&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Origin, Gradual Accumulation and Functional Divergence of Heat Shock Factor Gene Family with Plant Evolution</title>
+      <link>/publication/front_plant-sci_2018_hsf/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/front_plant-sci_2018_hsf/</guid>
+      <description></description>
     </item>
     
   </channel>

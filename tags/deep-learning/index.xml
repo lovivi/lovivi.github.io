@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on MALAB</title>
+    <link>/tags/deep-learning/</link>
+    <description>Recent content in Deep Learning on MALAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> BigData</title>
+      <link>/software/bigdata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/bigdata/</guid>
+      <description>Rapid advances in high-throughput genomic technology have enabled biology to enter the era of ‘Big Data’ (large datasets). The three ‘V’ features of Big Data – velocity, volume, and variety – have catalyzed the development of innovative technical and analytical strategies to cope with the data. We presented a platform for machine learning-based Big Data analytics in plants and envisaged how machine learning could interface with Big Data technology to facilitate basic research and biotechnology in plant sciences Figure.</description>
+    </item>
+    
+    <item>
+      <title>RSGCC</title>
+      <link>/software/research_gini/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/research_gini/</guid>
+      <description>We introduced the Gini correlation coefficient, a member of the family of Gini methodologies that have been widely used in economics, to infer non-linear transcriptional regulatory relationships in transcriptomics data (Figure 2). The Gini-based R package rsgcc would be an alternative option for biologists to perform clustering analyses of gene expression patterns or transcriptional network analysis.
+Figure. Gini correlation is a powerful algorithm to infer non-linear transcriptional regulatory relationships</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on MALAB@NWAFU</title>
+    <link>/home/</link>
+    <description>Recent content in Homes on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/hero_carousel/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/home/hero_carousel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Welcome to Ma Lab</title>
+      <link>/home/first/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/home/first/</guid>
+      <description>We are group of people dedicated to Bioinformatics research and service provision.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description> What We Do Within the fields of bioinformatics and systems biology, we seek to apply Big-Data technologies and methods to answer questions in plant biology, specifically in studies of crop genomics and genetics.
+The main research interests include:
+ Artificial intelligence (AI) and Big-Data analysis,
+ Epitranscriptome: Bioinformatics approaches and regulation mechanisms,
+ Bioinformatics-based genotype-phenotype mapping,
+ Systems biology approaches-based plant stress research.
+  </description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EVENTS</title>
+      <link>/home/events/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NEWS</title>
+      <link>/home/news/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/home/people/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Join us</title>
+      <link>/home/opportunities/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/opportunities/</guid>
+      <description>Recruiting associate professors/instructors and postdoctoral fellows in bioinformatics. Welcome to join us!</description>
+    </item>
+    
+    <item>
+      <title>Search</title>
+      <link>/home/search/</link>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/home/search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>   </description>
+    </item>
+    
+  </channel>
+</rss>

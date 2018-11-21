@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>all on MALAB@NWAFU</title>
+    <link>/tags/all/</link>
+    <description>Recent content in all on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/all/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> BigData</title>
+      <link>/software/bigdata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/bigdata/</guid>
+      <description>Rapid advances in high-throughput genomic technology have enabled biology to enter the era of ‘Big Data’ (large datasets). The three ‘V’ features of Big Data – velocity, volume, and variety – have catalyzed the development of innovative technical and analytical strategies to cope with the data. We presented a platform for machine learning-based Big Data analytics in plants and envisaged how machine learning could interface with Big Data technology to facilitate basic research and biotechnology in plant sciences Figure.</description>
+    </item>
+    
+    <item>
+      <title> G2P</title>
+      <link>/software/g2p/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/g2p/</guid>
+      <description> Comming soon &amp;hellip; </description>
+    </item>
+    
+    <item>
+      <title>Epitranscriptome</title>
+      <link>/software/epitranscriptome/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/software/epitranscriptome/</guid>
+      <description> Coming soon &amp;hellip; </description>
+    </item>
+    
+  </channel>
+</rss>

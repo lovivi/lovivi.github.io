@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on MALAB</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on MALAB</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> BigData</title>
+      <link>/project/bigdata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/bigdata/</guid>
+      <description>Rapid advances in high-throughput genomic technology have enabled biology to enter the era of ‘Big Data’ (large datasets). The three ‘V’ features of Big Data – velocity, volume, and variety – have catalyzed the development of innovative technical and analytical strategies to cope with the data. We presented a platform for machine learning-based Big Data analytics in plants and envisaged how machine learning could interface with Big Data technology to facilitate basic research and biotechnology in plant sciences Figure.</description>
+    </item>
+    
+    <item>
+      <title>KGBassembler</title>
+      <link>/project/-research_kgbassembler/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/-research_kgbassembler/</guid>
+      <description>The Brassicaceae family includes the most important plant model Arabidopsis thaliana and many cruciferous vegetable crops. Due to the lack of genetic and/or physical maps for many non-model Brassicaceae species, de novo assembly of full chromosomes is difficult in many experiments designed with short sequencing data. To address this problem, we developed a bioinformatics tool named KGBassembler to automatically finalize assembly of full chromosomes from contigs and/or scaffolds based on available karyotypes of Brassicaceae species (Figure 1).</description>
+    </item>
+    
+    <item>
+      <title>RSGCC</title>
+      <link>/project/research_gini/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/research_gini/</guid>
+      <description>We introduced the Gini correlation coefficient, a member of the family of Gini methodologies that have been widely used in economics, to infer non-linear transcriptional regulatory relationships in transcriptomics data (Figure 2). The Gini-based R package rsgcc would be an alternative option for biologists to perform clustering analyses of gene expression patterns or transcriptional network analysis.
+Figure. Gini correlation is a powerful algorithm to infer non-linear transcriptional regulatory relationships</description>
+    </item>
+    
+    <item>
+      <title>mlDNA</title>
+      <link>/project/research_mldna/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/research_mldna/</guid>
+      <description>Machine learning (ML) is an intelligent data mining technique to recognize patterns in large-scale data sets, the capability of which in Big Data analysis was exemplified in the Go match between Google’s artificial intelligence program AlphaGo and the world-class Go players like Lee Sedol. We presented an ML-based methodology termed mlDNA for large-scale integration analysis of transcriptome data via comparison of gene coexpression networks (Figure 3). mlDNA substantially outperformed traditional statistical testing–based differential expression analysis in identifying stress-related genes, with markedly improved prediction accuracy.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on MALAB@NWAFU</title>
+    <link>/publication_types/2/</link>
+    <description>Recent content in 2 on MALAB@NWAFU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Deep Convolutional Neural Network Approach for Predicting Phenotypes from Genotypes</title>
+      <link>/publication/planta_2018_deepgs/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/planta_2018_deepgs/</guid>
+      <description>基于深度学习技术的全基因组选择的生物信息学新方法研究 全基因组选择(genomic selection,GS)育种是分子辅助育种新策略，实现了育</description>
+    </item>
+    
+    <item>
+      <title>PEA: an Integrated R Toolkit for Plant Epitranscriptome Analysis</title>
+      <link>/publication/bioinformatics_2018_pea/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/bioinformatics_2018_pea/</guid>
+      <description>构建了植物表观转录组数据整合分析系统 表观转录组(也称 RNA 的化学修饰; CMR)作为基因表达调控的新层面，可参与到多个生物学过程，其中包括响应胁迫</description>
+    </item>
+    
+    <item>
+      <title>Steroids-specific Target Library for Steroids Target Prediction</title>
+      <link>/publication/steroids_2018_steroidstarget/</link>
+      <pubDate>Mon, 08 Oct 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/steroids_2018_steroidstarget/</guid>
+      <description>甾体特异性靶标库的构建及筛选研究 甾体类分子是生物界出现最广泛的成分之一，在各种生物过程中发挥着关键作用。确定甾体类分子的潜在靶点对研究其生理</description>
+    </item>
+    
+    <item>
+      <title>Opaque-2 Regulates a Complex Gene Network Associated with Cell Differentiation and Storage Functions of Maize Endosperm</title>
+      <link>/publication/the_plant_cell_2018_opaque2/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/the_plant_cell_2018_opaque2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcriptome-Wide Annotation of m5C RNA Modifications Using Machine Learning</title>
+      <link>/publication/front_plant-sci_2018_peam5c/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/front_plant-sci_2018_peam5c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heritable Epigenomic Changes to the Maize Methylome Resulting from Tissue Culture</title>
+      <link>/publication/genetics_2018_methylome/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/genetics_2018_methylome/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution of Intron-poor Clades and Expression Patterns of the Glycosyltransferase Family 47</title>
+      <link>/publication/planta_2018_gt47/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/planta_2018_gt47/</guid>
+      <description>揭示了糖基转移酶家族47的起源进化和表达模式 糖基转移酶家族47(GT47)的基因编码合成果胶，木葡聚糖和木聚糖的β-半乳糖基转移酶和β-葡糖</description>
+    </item>
+    
+    <item>
+      <title>Evolutionary Origin, Gradual Accumulation and Functional Divergence of Heat Shock Factor Gene Family with Plant Evolution</title>
+      <link>/publication/front_plant-sci_2018_hsf/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/front_plant-sci_2018_hsf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Systems Approach to a Spatio-temporal Understanding of the Drought Stress Response in Maize.</title>
+      <link>/publication/scientific_reports_2017_droughtstress/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/scientific_reports_2017_droughtstress/</guid>
+      <description>系统解析了玉米不同组织在生长发育和胁迫信号刺激下的关键基因的响应机制 植物一生中受到各种发育和胁迫相关的刺激信号，而它们通过错综复杂的信号通路</description>
+    </item>
+    
+    <item>
+      <title>Massive Expansion and Differential Evolution of Small Heat Shock Proteins with Wheat (Triticum aestivum L.) Polyploidization</title>
+      <link>/publication/scientific_reports_2017_shsps/</link>
+      <pubDate>Fri, 01 Sep 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/scientific_reports_2017_shsps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Meta-Analysis Based Method for Prioritizing Candidate Genes Involved in a Pre-specific Function</title>
+      <link>/publication/front_plant-sci_2016_rap/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/front_plant-sci_2016_rap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transcriptome Dynamics during Maize Endosperm Development</title>
+      <link>/publication/plos_one_2016_maizeendosperm/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/plos_one_2016_maizeendosperm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DNA Sequence and Structure Properties Analysis Reveals Similarities and Differences to Promoters of Stress Responsive Genes in Arabidopsis thaliana.</title>
+      <link>/publication/int_j_data_min_bioinform_2015_stress_responsive/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/int_j_data_min_bioinform_2015_stress_responsive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>miRLocator: Machine Learning-Based Prediction of Mature MicroRNAs within Plant Pre-miRNA Sequences</title>
+      <link>/publication/plos_one_2015_mirlocator/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/plos_one_2015_mirlocator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RNA Sequencing of Laser-Capture Microdissected Compartments of the Maize Kernel Identifies Regulatory Modules Associated with Endosperm Cell Differentiation</title>
+      <link>/publication/the_plant_cell_2015_endospermdifferentiation/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/the_plant_cell_2015_endospermdifferentiation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning for Big Data Analytics in Plants.</title>
+      <link>/publication/trends_in_plant_science_2014_machinelearning/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/trends_in_plant_science_2014_machinelearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning-based Differential Network Analysis: A Study of Stress-responsive Transcriptomes in Arabidopsis</title>
+      <link>/publication/the_plant_cell_2014_mldna/</link>
+      <pubDate>Mon, 01 Sep 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/the_plant_cell_2014_mldna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Expression of Imprinted Genes Associates with Maternally Controlled Nutrient Allocation during Maize Endosperm Development</title>
+      <link>/publication/the_plant_cell_2013_-imprintedgenes/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/the_plant_cell_2013_-imprintedgenes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Application of the Gini Correlation Coefficient to Infer Regulatory Relationships in Transcriptome Analysis</title>
+      <link>/publication/plant_physiology_2012_rsgcc/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/plant_physiology_2012_rsgcc/</guid>
+      <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
+    </item>
+    
+    <item>
+      <title>KGBassembler: A Karyotype-based Genome Assembler for Brassicaceae Species</title>
+      <link>/publication/bioinformatics_2012_kgbassembler/</link>
+      <pubDate>Sat, 01 Sep 2012 00:00:00 +0800</pubDate>
+      
+      <guid>/publication/bioinformatics_2012_kgbassembler/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

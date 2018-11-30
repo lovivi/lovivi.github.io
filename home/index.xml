@@ -31,21 +31,6 @@
     </item>
     
     <item>
-      <title></title>
-      <link>/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/home/about/</guid>
-      <description> What We Do Within the fields of bioinformatics and systems biology, we seek to apply Big-Data technologies and methods to answer questions in plant biology, specifically in studies of crop genomics and genetics.
-The main research interests include:
- Artificial intelligence (AI) and Big-Data analysis,
- Epitranscriptome: Bioinformatics approaches and regulation mechanisms,
- Bioinformatics-based genotype-phenotype mapping,
- Systems biology approaches-based plant stress research.
-  </description>
-    </item>
-    
-    <item>
       <title>Projects</title>
       <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
@@ -79,6 +64,21 @@ The main research interests include:
       
       <guid>/home/events/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description> What We Do Within the fields of bioinformatics and systems biology, we seek to apply Big-Data technologies and methods to answer questions in plant biology, specifically in studies of crop genomics and genetics.
+The main research interests include:
+ Artificial intelligence (AI) and Big-Data analysis,
+ Epitranscriptome: Bioinformatics approaches and regulation mechanisms,
+ Bioinformatics-based genotype-phenotype mapping,
+ Systems biology approaches-based plant stress research.
+  </description>
     </item>
     
     <item>
